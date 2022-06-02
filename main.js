@@ -67,3 +67,23 @@
 //   var rnd = Math.floor(Math.random() * 57);
 //   document.write("<br>" + "<br>" + rnd);
 // }
+// var numbersArray = [];
+// function mainFunc() {
+//   if (numbersArray.length < 5) {
+//     nums_user.innerText += "number : " + user_number.value + " ";
+//     numbersArray.push(user_number.value);
+//   } else {
+//     user_number.disabled = true;
+//   }
+// }
+// function getAndPrintRandom() {
+//   var rndNum = Math.floor(Math.random() * 57);
+//   rnd_h3.innerText += rndNum;
+//   for (var i = 0; i < numbersArray.length; i++) {
+//     if (rndNum == numbersArray[i]) {
+//       document.getElementById("result_text").innerText = "You win";
+//       return;
+//     }
+//   }
+//   document.getElementById("result_text").innerText = "You Loose";
+// }

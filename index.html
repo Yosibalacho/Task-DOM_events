@@ -19,7 +19,16 @@
     <!-- <h1 onmouseover="hoverFunc()" id="h1_red"></h1>
     <h2 onmouseover="hoverFunc()" id="h2_blue"></h2> -->
     <!-- <button onclick="clickName()"></button> -->
-    <button onclick="lottoFunc()">My Lotto game</button>
+    <!-- <button onclick="lottoFunc()">My Lotto game</button> -->
+    <h1>Lotto Game</h1>
+    <label for="">Please enter a number:</label>
+    <input max="56" min="0" type="number" id="user_number" />
+    <button id="num_btn" onclick="mainFunc()">Save Number</button>
+    <p id="nums_user"></p>
+    <button id="rnd_btn" onclick="getAndPrintRandom()">GET RANDOM NUMBER</button>
+    <h3 id="rnd_h3">Lotto number:</h3>
+    <h1 id="result_text">RESULT</h1>
+
     <script src="main.js"></script>
   </body>
 </html>
